@@ -6,6 +6,10 @@ As the `messages.htm` file can grow pretty massive, depending on your Facebook a
 
 Furthermore, it outputs the threaded messages chronologically for natural reading, instead of the reverse order provided.
 
+## Requirements
+
+The script makes use two CPAN modules: File::Slurp and Mojo::DOM. Please install them before running the script.
+
 ## Usage
 ```
 $ ./threadsplitter.pl path/to/facebook/dump/messages.htm conversations/

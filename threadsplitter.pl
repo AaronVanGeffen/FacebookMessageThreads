@@ -3,7 +3,6 @@ use strict;
 use warnings;
 use v5.10;
 
-use Data::Dumper;
 use File::Slurp;
 use Mojo::DOM;
 
