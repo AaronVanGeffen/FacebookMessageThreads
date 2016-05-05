@@ -8,7 +8,10 @@ Furthermore, it outputs the threaded messages chronologically for natural readin
 
 ## Requirements
 
-The script makes use two CPAN modules: File::Slurp and Mojo::DOM. Please install them before running the script.
+The script makes use of two CPAN modules: File::Slurp and Mojo::DOM. Please install them before running the script, e.g.:
+```
+$ cpan File::Slurp Mojo::DOM
+```
 
 ## Usage
 ```
